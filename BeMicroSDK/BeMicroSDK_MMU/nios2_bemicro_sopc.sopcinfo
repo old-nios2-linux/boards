@@ -5525,7 +5525,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="timerPreset">
    <type>com.altera.sopcmodel.components.avalon.AlteraAvalonTimer.TimerPresets</type>
-   <value>CUSTOM</value>
+   <value>FULL_FEATURED</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
