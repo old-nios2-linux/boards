@@ -199,17 +199,34 @@ assign enet_resetn = global_resetn;
         .out_port_from_the_led_pio               (led_pio),
 
         // the_tse_mac
-        .mdc_from_the_tse_mac                    (enet_mdc),
-        .mdio_in_to_the_tse_mac                  (mdio_in),
-        .mdio_oen_from_the_tse_mac               (mdio_oen),
-        .mdio_out_from_the_tse_mac               (mdio_out),
-        .ref_clk_to_the_tse_mac                  (clkin_125),
-        .rxp_to_the_tse_mac                      (enet_rx_p),
-        .txp_from_the_tse_mac                    (enet_tx_p),
+/*
+        .mdc_from_the_tse_mac_0                  (enet_mdc),
+        .mdio_in_to_the_tse_mac_0                (mdio_in),
+        .mdio_oen_from_the_tse_mac_0             (mdio_oen),
+        .mdio_out_from_the_tse_mac_0             (mdio_out),
+        .ref_clk_to_the_tse_mac_0                (clkin_125),
+        .rxp_to_the_tse_mac_0                    (enet_rx_p),
+        .txp_from_the_tse_mac_0                  (enet_tx_p),
+*/
+        .tse_mac_0_mdio_out                      (mdio_out),
+        .tse_mac_0_mdio_oen                      (mdio_oen),
+        .tse_mac_0_mdio_in                       (mdio_in),
+        .tse_mac_0_mdc                           (enet_mdc),
+//        .tse_mac_0_led_an                        (),
+//        .tse_mac_0_led_char_err                  (),
+//        .tse_mac_0_led_link                      (),
+//        .tse_mac_0_led_disp_err                  (),
+//        .tse_mac_0_led_crs                       (),
+//        .tse_mac_0_led_col                       (),
+        .tse_mac_0_txp                           (enet_tx_p),
+        .tse_mac_0_rxp                           (enet_rx_p),
+        .tse_mac_0_ref_clk                       (clkin_125),
+//        .tse_mac_0_rx_recovclkout                (),
+
 
         // the_uart
-        .rxd_to_the_uart                         (rxd_to_the_uart),
-        .txd_from_the_uart                       (txd_from_the_uart),
+        .uart_0_rxd                              (rxd_to_the_uart),
+        .uart_0_txd                              (txd_from_the_uart),
 
         // the_tb_fsm_avalon_slave
         .select_n_to_the_ext_flash               (select_n_to_the_ext_flash),
