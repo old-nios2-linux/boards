@@ -328,12 +328,12 @@
       }
       datum megawizard_uipreferences
       {
-         value = "{output_language=VERILOG, output_directory=/data/dwesterg/nios2-linux/nios2-linux/boards/4S230GX/niosii-mmu-4sgx230-qsys}";
+         value = "{}";
          type = "String";
       }
       datum sopceditor_expanded
       {
-         value = "0";
+         value = "1";
          type = "boolean";
       }
    }
@@ -374,11 +374,11 @@
  <parameter name="generationId" value="0" />
  <parameter name="globalResetBus" value="false" />
  <parameter name="hdlLanguage" value="VERILOG" />
- <parameter name="maxAdditionalLatency" value="1" />
+ <parameter name="maxAdditionalLatency" value="0" />
  <parameter name="projectName" value="ghrd_4sgx230.qpf" />
  <parameter name="sopcBorderPoints" value="false" />
  <parameter name="systemHash" value="1" />
- <parameter name="timeStamp" value="1323637037093" />
+ <parameter name="timeStamp" value="1323739230061" />
  <parameter name="useTestBenchNamingPattern" value="false" />
  <instanceScript></instanceScript>
  <interface
@@ -622,16 +622,16 @@
   <parameter name="deviceFamily" value="STRATIXIV" />
   <parameter name="deviceFamilyName" value="Stratix IV" />
   <parameter name="eg_addr" value="11" />
-  <parameter name="ena_hash" value="false" />
+  <parameter name="ena_hash" value="true" />
   <parameter name="enable_alt_reconfig" value="false" />
   <parameter name="enable_clk_sharing" value="false" />
   <parameter name="enable_ena" value="32" />
   <parameter name="enable_fifoless" value="false" />
   <parameter name="enable_gmii_loopback" value="false" />
-  <parameter name="enable_hd_logic" value="false" />
-  <parameter name="enable_mac_flow_ctrl" value="false" />
+  <parameter name="enable_hd_logic" value="true" />
+  <parameter name="enable_mac_flow_ctrl" value="true" />
   <parameter name="enable_mac_txaddr_set" value="true" />
-  <parameter name="enable_mac_vlan" value="false" />
+  <parameter name="enable_mac_vlan" value="true" />
   <parameter name="enable_maclite" value="false" />
   <parameter name="enable_magic_detect" value="true" />
   <parameter name="enable_multi_channel" value="false" />
@@ -640,11 +640,11 @@
   <parameter name="enable_reg_sharing" value="false" />
   <parameter name="enable_sgmii" value="true" />
   <parameter name="enable_shift16" value="true" />
-  <parameter name="enable_sup_addr" value="false" />
+  <parameter name="enable_sup_addr" value="true" />
   <parameter name="enable_use_internal_fifo" value="true" />
   <parameter name="export_calblkclk" value="false" />
   <parameter name="export_pwrdn" value="false" />
-  <parameter name="ext_stat_cnt_ena" value="false" />
+  <parameter name="ext_stat_cnt_ena" value="true" />
   <parameter name="gigeAdvanceMode" value="true" />
   <parameter name="ifGMII" value="MII_GMII" />
   <parameter name="ifPCSuseEmbeddedSerdes" value="true" />
