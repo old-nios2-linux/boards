@@ -82,8 +82,6 @@
 				ALTR,rx-fifo-depth = <2048>;	//embeddedsw.CMacro.RECEIVE_FIFO_DEPTH type NUMBER
 				ALTR,tx-fifo-depth = <2048>;	//embeddedsw.CMacro.TRANSMIT_FIFO_DEPTH type NUMBER
 				ALTR,use-mdio = <1>;	//embeddedsw.CMacro.USE_MDIO type NUMBER
-				ALTR,maclite-gige = <0>;	//embeddedsw.CMacro.MACLITE_GIGE type NUMBER
-				ALTR,enable-maclite = <0>;	//embeddedsw.CMacro.ENABLE_MACLITE type NUMBER
 				address-bits = <48>;
 				max-frame-size = <1518>;
 				local-mac-address = [ 00 07 ED 01 02 03 ];
