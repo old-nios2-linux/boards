@@ -1,6 +1,6 @@
 <sld_project_info>
   <file_info>
-    <file checksum="0x083AC09D" device="EP4SGX230KF40C2" path="ghrd_4sgx230.sof" usercode="0xFFFFFFFF"/>
+    <file checksum="0x0851E053" device="EP4SGX230KF40C2" path="ghrd_4sgx230.sof" usercode="0xFFFFFFFF"/>
   </file_info>
   <hub_info ir_width="3" node_count="3"/>
   <node_info>
